@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-DEVICE_BOOTDIR := device/sony/falconss/boot
+DEVICE_BOOTDIR := device/sony/shuang/boot
 
 INSTALLED_RECOVERYIMAGE_TARGET := $(PRODUCT_OUT)/recovery.img
 $(INSTALLED_RECOVERYIMAGE_TARGET): \

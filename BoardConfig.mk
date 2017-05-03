@@ -15,7 +15,7 @@
 #
 
 # Board device path
-DEVICE_PATH := device/sony/falconss
+DEVICE_PATH := device/sony/shuang
 
 # Board Vendor
 BOARD_VENDOR := sony
@@ -26,7 +26,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8610
-BOARD_VENDOR_PLATFORM := falconss
+BOARD_VENDOR_PLATFORM := shuang
 
 # Architecture
 TARGET_ARCH := arm
@@ -37,7 +37,7 @@ TARGET_CPU_VARIANT := krait
 
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/sony/msm8x10
-TARGET_KERNEL_CONFIG := lineageos_falconss_defconfig
+TARGET_KERNEL_CONFIG := lineageos_shuang_defconfig
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dt.img
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/kernel
 

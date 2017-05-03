@@ -17,21 +17,21 @@
 #
 
 # Inherit device configurations
-$(call inherit-product, device/sony/falconss/device.mk)
+$(call inherit-product, device/sony/shuang/device.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Device identifications
-PRODUCT_DEVICE := falconss
-PRODUCT_NAME := omni_falconss
-PRODUCT_RELEASE_NAME := falconss
+PRODUCT_DEVICE := shuang
+PRODUCT_NAME := omni_shuang
+PRODUCT_RELEASE_NAME := shuang
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia E1
 
 # Prebuilts
 PRODUCT_COPY_FILES += \
-    device/sony/falconss/prebuilts/dt.img:dt.img \
-    device/sony/falconss/prebuilts/kernel:kernel
+    device/sony/shuang/prebuilts/dt.img:dt.img \
+    device/sony/shuang/prebuilts/kernel:kernel

@@ -1,2 +1,2 @@
-add_lunch_combo omni_falconss-userdebug
-add_lunch_combo omni_falconss-eng
+add_lunch_combo omni_shuang-userdebug
+add_lunch_combo omni_shuang-eng
