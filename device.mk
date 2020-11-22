@@ -15,7 +15,7 @@
 #
 
 # Product common configurations
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product-if-exists, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 
 # USB properties
