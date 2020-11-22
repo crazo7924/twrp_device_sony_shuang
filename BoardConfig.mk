@@ -97,3 +97,5 @@ TW_INPUT_BLACKLIST := "accelerometer\ncompass"
 TW_MAX_BRIGHTNESS := 255
 TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
+
+LZMA_RAMDISK_TARGETS := recovery
