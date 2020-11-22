@@ -33,7 +33,7 @@ TARGET_ARCH := arm
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
-TARGET_CPU_VARIANT := krait
+TARGET_CPU_VARIANT := cortex-a7
 
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/sony/msm8x10
