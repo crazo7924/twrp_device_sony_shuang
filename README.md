@@ -1,10 +1,10 @@
-Copyright 2016 - The CyanogenMod Project  
-Copyright 2017 - The LineageOS Project  
+Copyright 2016 - The CyanogenMod Project
+Copyright 2017 - The LineageOS Project
 
 Sony Xperia E1
 ==============
 
-The Sony Xperia E1 (codenamed _"Shuang"_ / old codename _"falconss"_) is a low-range smartphone from Sony Mobile.
+The Sony Xperia E1 (codenamed _"shuang"_ / old codename _"falconss"_) is a low-range smartphone from Sony Mobile.
 
 It was released on January 2014.
 
