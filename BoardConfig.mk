@@ -37,9 +37,7 @@ TARGET_CPU_VARIANT := cortex-a7
 
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/sony/msm8x10
-TARGET_KERNEL_CONFIG := lineageos_shuang_defconfig
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dt.img
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/kernel
+TARGET_KERNEL_CONFIG := shuang_defconfig
 
 # Kernel configurations
 BOARD_KERNEL_BASE  := 0x00000000
@@ -59,9 +57,6 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1436549120
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2176826880
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-# Custom boot
-BOARD_CUSTOM_BOOTIMG := true
-BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/boot/custombootimg.mk
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 
 # Recovery
