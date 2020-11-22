@@ -59,7 +59,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01E00000
 
 # Vold
 BOARD_VOLD_MAX_PARTITIONS := 21
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
+TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/msm_hsusb/gadget/lun%d/file"
 
 # Partitions information
 BOARD_BOOTIMAGE_PARTITION_SIZE := 20971520
@@ -82,8 +82,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 ALLOW_MISSING_DEPENDENCIES := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 RECOVERY_SDCARD_ON_DATA := true
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
-TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_CRYPTO_FS_FLAGS := "0x00000406"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,barrier=1,noauto_da_alloc,discard"
 TW_CRYPTO_FS_TYPE := "ext4"
