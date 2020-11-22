@@ -1,6 +1,8 @@
 Copyright 2016 - The CyanogenMod Project
 Copyright 2017 - The LineageOS Project
 
+### This branch is for building TWRP Recovery only.
+
 Sony Xperia E1
 ==============
 
@@ -19,8 +21,8 @@ Shipped Android Version | 4.3
 Storage | 4GB
 Battery | 1750 mAh
 Display | 4" 480 x 800 px
-Camera  | 3.15MPx, LED Flash
+Camera  | 3.15MP
 
-![Sony Xperia E1](http://api.sonymobile.com/files/xperia-e1-hero-white-1240x840-1a823694841bc38b045bbad747494b85.jpg "Sony Xperia E1)
+![Sony Xperia E1](https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-e1-1.jpg)
 
-This branch is for building TWRP Recovery only.
+
