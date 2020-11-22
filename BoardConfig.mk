@@ -56,6 +56,7 @@ BOARD_KERNEL_CMDLINE := \
 	androidboot.bootdevice=msm_sdcc.1 \
 	androidboot.selinux=permissive
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01E00000
+TARGET_CUSTOM_DTBTOOL := dtbToolLineage
 
 # Vold
 BOARD_VOLD_MAX_PARTITIONS := 21
