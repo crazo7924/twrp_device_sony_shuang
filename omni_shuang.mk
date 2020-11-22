@@ -27,11 +27,6 @@ TARGET_SCREEN_WIDTH := 480
 PRODUCT_DEVICE := shuang
 PRODUCT_NAME := omni_shuang
 PRODUCT_RELEASE_NAME := shuang
-PRODUCT_BRAND := Sony
+PRODUCT_BRAND := sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia E1
-
-# Prebuilts
-PRODUCT_COPY_FILES += \
-    device/sony/shuang/prebuilts/dt.img:dt.img \
-    device/sony/shuang/prebuilts/kernel:kernel
